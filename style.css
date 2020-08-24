@@ -199,17 +199,46 @@ main {
 .editors {
   float: right;
   position: absolute;
-  right: 200px;
+  right: 20px;
   top: 1920px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
+  width: 300px;
 }
 
-/* .editors::after {
+.aside-container {
+  flex-direction: column;
+  width: 75%;
+  border-top: 1px solid rgb(204, 204, 204);
+  padding-top: 15px;
+}
+
+.editors > h6 {
+  padding-bottom: 20px;
+}
+
+.editors img {
+  width: 75px;
+  height: 75px;
+}
+
+.editors a {
+  font-size: 14px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.editors p {
+  width: 45%;
+  margin: 13.5px 0 13.5px 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* 
+.aside-container::before {
   content: "";
   display: block;
   margin: 0 auto;
-  width: 100%;
-  padding-top: 20px;
+  width: 200px;
   border-bottom: 1px solid rgb(204, 204, 204);
 } */
