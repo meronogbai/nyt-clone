@@ -74,3 +74,14 @@ main {
   display: block;
   margin: 0 auto;
 }
+
+.section1-title {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.section-1 {
+  width: 60vw;
+  margin: 0 auto;
+}
