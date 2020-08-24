@@ -1,0 +1,41 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+/* Navbar */
+
+.navbar {
+    justify-content: space-between;
+    margin: 10px 8px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.nav-item {
+    flex: 1;
+}
+
+.nyt-logo {
+    width: 250px;
+}
+
+
+/* Section 1 */
+
+main {
+    margin-top: 50px;
+}
+
+.alan-guth {
+    width: 900px;
+    display: block;
+    margin: 0 auto;
+}
