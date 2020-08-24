@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+a {
+    color: #000;
+}
+
 .flex {
   display: flex;
 }
@@ -19,6 +23,7 @@
   border-bottom: 1px solid #eee;
   padding: 0px 15px 5px;
   align-items: center;
+  background-color: white;
 }
 
 .nav-item {
@@ -69,16 +74,40 @@ main {
   margin-top: 50px;
 }
 
-.alan-guth {
-  width: 900px;
-  display: block;
-  margin: 0 auto;
+.section1-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 40vw;
+    margin: 0 auto;
+    font-style: italic;
+    padding: 40px 0 10px;
+    font-size: 2.5rem;
+    line-height: 1.4;
 }
 
-.section1-title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 60vw;
-  margin: 0 auto;
+.section1-fig {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.alan-guth {
+  width: 100%;
+  align-items: center;
+}
+
+.alan-guth-caption {
+    width: 80%;
+    align-self: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #666;
+    margin: 10px 20px;
+    font-size: 15px;
+}
+
+.rick-friedman {
+    font-size: 12px;
+    color: #888;
 }
 
 .section-1 {
