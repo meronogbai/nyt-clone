@@ -3,11 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
-    color: #000;
+  color: #000;
 }
 
 .flex {
@@ -17,12 +20,11 @@ a {
 
 .navbar {
   justify-content: space-between;
-  margin: 5px 0px;
   position: fixed;
   width: 100%;
   top: 0;
   border-bottom: 1px solid #eee;
-  padding: 0px 15px 5px;
+  padding: 8px 15px 5px;
   align-items: center;
   background-color: white;
 }
@@ -76,19 +78,19 @@ main {
 }
 
 .section1-title {
-    width: 40vw;
-    margin: 0 auto;
-    font-style: italic;
-    padding: 40px 0 10px;
-    font-size: 2.5rem;
-    line-height: 1.4;
+  width: 45vw;
+  margin: 0 auto;
+  font-style: italic;
+  padding: 40px 0 10px;
+  font-size: 2.5rem;
+  line-height: 1.4;
 }
 
 .section1-fig {
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    width: 75%;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 75%;
 }
 
 .alan-guth {
@@ -97,44 +99,117 @@ main {
 }
 
 .alan-guth-caption {
-    width: 80%;
-    align-self: flex-start;
-    color: #666;
-    margin: 10px 20px;
-    font-size: 15px;
+  width: 80%;
+  align-self: flex-start;
+  color: #666;
+  margin: 10px 20px;
+  font-size: 15px;
 }
 
 .rick-friedman {
-    font-size: 12px;
-    color: #888;
+  font-size: 12px;
+  color: #888;
 }
 
 .section-1 {
-  width: 40vw;
+  width: 45vw;
   margin: 0 auto;
 }
 
 /* Social and by line */
 .social-date {
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
 }
 
 .social > button {
-    width: 27px;
-    height: 27px;
-    border-radius: 50%;
-    border-style: none;
-    background-color: #eee;
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: #eee;
+  margin-right: 10px;
 }
 
 .social-date > p {
-    font-family: Helvetica, sans-serif;
-    font-size: 13px;
-    color: #333;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
+}
+
+.social > a {
+  margin-right: 10px;
 }
 
 .section-1 > h6 {
-    font-size: 15px;
-    margin: 10px 0;
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+/* Section 1 text */
+.section1-art {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.section1-art > p {
+  padding-top: 15px;
+}
+
+.section1-subscribe {
+  width: 45vw;
+  font-size: .9rem;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1-subscribe::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.section1-subscribe::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.section1-subscribe > a {
+  text-decoration: none;
+  color: rgb(48, 104, 143);
+  margin: 0;
+  padding: 0;
+}
+
+#thanks {
+  margin-top: 16px;
+}
+
+/* Aside Editors Pick */
+.editors {
+  float: right;
+  position: absolute;
+  right: 200px;
+  top: 1920px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+}
+
+.editors::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(204, 204, 204);
 }
