@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a {
@@ -75,7 +76,6 @@ main {
 }
 
 .section1-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     width: 40vw;
     margin: 0 auto;
     font-style: italic;
@@ -99,7 +99,6 @@ main {
 .alan-guth-caption {
     width: 80%;
     align-self: flex-start;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     color: #666;
     margin: 10px 20px;
     font-size: 15px;
@@ -111,6 +110,31 @@ main {
 }
 
 .section-1 {
-  width: 60vw;
+  width: 40vw;
   margin: 0 auto;
+}
+
+/* Social and by line */
+.social-date {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social > button {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #eee;
+}
+
+.social-date > p {
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333;
+}
+
+.section-1 > h6 {
+    font-size: 15px;
+    margin: 10px 0;
 }
