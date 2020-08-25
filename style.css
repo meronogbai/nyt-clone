@@ -272,3 +272,18 @@ main {
 .theory-diagram {
   padding-top: 20px;
 }
+
+.theory hr {
+  width: 7%;
+  height: 1px;
+  margin: 30px 0 15px 0;
+  background-color: black;
+  border: none;
+}
+
+.byline {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #333;
+  margin-bottom: 14px;
+}
