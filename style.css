@@ -371,7 +371,13 @@ h4 {
 /* Final Section */
 .final-section-container {
   width: 85vw;
-  margin: 0 auto;
+  margin: 45px auto;
+}
+
+.final-section-container hr {
+  background-color: #000;
+  border: none;
+  height: 1px;
 }
 
 .final-section {
@@ -398,15 +404,12 @@ h4 {
   line-height: 3;
 }
 
-.final-section hr {
-  width: 100%;
-}
-
 .fs-title {
   font-size: 1rem;
   font-family: Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
+
 .fs-title:hover {
   text-decoration: underline;
 }
