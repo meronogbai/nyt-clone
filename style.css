@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 a {
@@ -160,7 +160,7 @@ main {
 
 .section1-subscribe {
   width: 45vw;
-  font-size: .9rem;
+  font-size: 0.9rem;
   text-align: center;
   padding-top: 20px;
   font-weight: bold;
@@ -231,7 +231,7 @@ main {
 .editors p {
   width: 45%;
   margin: 13.5px 0 13.5px 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* Theory of inflation */
@@ -362,8 +362,60 @@ h4 {
 .comment-btn {
   width: 330px;
   height: 36px;
-  background-color: #567B95;
+  background-color: #567b95;
   border-radius: 3px;
   border: 1px solid rgb(50, 104, 145);
   color: white;
+}
+
+/* Final Section */
+
+.final-section {
+  margin: 0 auto;
+}
+
+.final-section img {
+  width: 100%;
+}
+
+.more-space {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 270px);
+  grid-template-rows: 20px repeat(2, 1fr);
+  justify-content: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+
+.more-space h6 {
+  grid-area: 1 / 1 / 2 / -1;
+}
+
+.more-space-title {
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+.more-space-title:hover {
+  text-decoration: underline;
+}
+
+.final-section figcaption {
+  text-align: right;
+  color: #999;
+  font-size: 0.65rem;
+  padding-bottom: 5px;
+}
+
+.date {
+  color: #999;
+  font-size: 0.65rem;
+  padding-top: 5px;
+}
+
+.final-section-text {
+  font-size: 1rem;
+  color: #121212;
+  font-weight: 900;
 }
