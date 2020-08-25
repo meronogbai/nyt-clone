@@ -451,14 +451,29 @@ h4 {
   font-size: 1rem;
   align-items: start;
   grid-auto-rows: min-content;
-  
 }
 
 .most-popular-text {
   border-top: 1px solid rgb(226, 226, 226);
   padding: 20px 0;
+  font-size: 1rem;
+  color: #121212;
 }
 
 .most-popular h6 {
   line-height: 3;
+}
+
+/* Footer */
+
+footer {
+  width: 85vw;
+  margin: 0 auto;
+}
+footer > hr {
+  border: 1px solid #ccc;
+  background-color: white;
+  border-style: solid none solid none;
+  height: 8px;
+  width: 100%;
 }
