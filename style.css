@@ -446,7 +446,19 @@ h4 {
   display: grid;
   width: 30%;
   grid-template-columns: 270px;
-  grid-template-rows: 30px 1fr;
+  grid-template-rows: 50px;
   justify-content: center;
-  grid-column-gap: 10px;
+  font-size: 1rem;
+  align-items: start;
+  grid-auto-rows: min-content;
+  
+}
+
+.most-popular-text {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 20px 0;
+}
+
+.most-popular h6 {
+  line-height: 3;
 }
