@@ -372,17 +372,13 @@ h4 {
 .final-section-container {
   width: 85vw;
   margin: 45px auto;
+  justify-content: space-between;
 }
 
 .final-section-container hr {
   background-color: #000;
   border: none;
   height: 1px;
-}
-
-.final-section {
-  margin: 0 auto;
-  width: 70%;
 }
 
 .final-section img {
@@ -444,13 +440,8 @@ h4 {
 
 .most-popular {
   display: grid;
-  width: 30%;
   grid-template-columns: 270px;
-  grid-template-rows: 50px;
-  justify-content: center;
-  font-size: 1rem;
-  align-items: start;
-  grid-auto-rows: min-content;
+  grid-template-rows: 50px repeat(10, min-content);
 }
 
 .most-popular-text {
