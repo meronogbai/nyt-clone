@@ -396,9 +396,10 @@ h4 {
   grid-row-gap: 20px;
 }
 
-.fs h6 {
+.fs > div {
   grid-area: 1 / 1 / 2 / -1;
   line-height: 3;
+  font-weight: bold;
 }
 
 .fs-title {
@@ -452,7 +453,8 @@ h4 {
   color: #121212;
 }
 
-.most-popular h6 {
+.most-popular > div {
+  font-weight: bold;
   line-height: 3;
 }
 
