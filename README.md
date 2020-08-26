@@ -5,6 +5,8 @@
 
 ![screenshot](./images/screenshot.png)
 
+In this project, we have created a replica of an article from the New York Times (https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0). We used flexbox, float and grid for positioning and layout.
+
 
 ## Built With
 
@@ -14,7 +16,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://meronokbay.github.io/nyt-clone/)
 
 
 ## Authors
