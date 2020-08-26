@@ -16,6 +16,7 @@ a {
 .flex {
   display: flex;
 }
+
 /* Navbar */
 
 .navbar {
@@ -234,6 +235,16 @@ main {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+/* Moved this here because specicificity errors */
+footer > hr {
+  border: 2px solid #ccc;
+  background-color: white;
+  border-style: solid none solid none;
+  height: 5px;
+  width: 100%;
+}
+
+
 /* Theory of inflation */
 .grid {
   display: grid;
@@ -309,6 +320,7 @@ main {
 .youtube-responsive {
   padding: 40px 0;
 }
+
 .youtube-vid {
   position: relative;
   padding-top: 56.25%;
@@ -465,14 +477,6 @@ footer {
   margin: 0 auto 55px auto;
 }
 
-footer > hr {
-  border: 2px solid #ccc;
-  background-color: white;
-  border-style: solid none solid none;
-  height: 5px;
-  width: 100%;
-}
-
 .nyt-footer-logo {
   width: 195px;
   padding: 10px 0;
@@ -504,8 +508,13 @@ footer > hr {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 0.8rem;
 }
+
 .footer-container li {
   padding: 6px 0;
+}
+
+.final-ul li:hover {
+  text-decoration: underline;
 }
 
 .footer-container li:hover:nth-of-type(n + 2) {
@@ -548,10 +557,6 @@ footer > hr {
   color: #666;
 }
 
-.final-ul li:hover {
-  text-decoration: underline;
-}
-
 .bottom-bar {
   border-top: 1px solid black;
   height: 55px;
@@ -575,7 +580,6 @@ footer > hr {
   margin-right: 230px;
   font-weight: bold;
   font-size: 0.7rem;
-  vertical-align: center;
   margin-top: 5px;
 }
 
