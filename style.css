@@ -474,12 +474,41 @@ footer > hr {
   padding: 10px 0;
 }
 
+.homepage-link {
+  float: right;
+  margin-top: 9px;
+}
+
+.homepage-link > a {
+  color: #326891;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-content: space-between;
+
+}
+
 .footer-container ul {
   list-style: none;
   color: #333;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+}
+.footer-container li {
+  padding: 6px 0;
+}
+
+.footer-container li:hover:nth-of-type(n+2) {
+  text-decoration: underline;
 }
 
 .top-li {
   font-size: 0.8rem;
+  font-weight: bold;  
 }
+
