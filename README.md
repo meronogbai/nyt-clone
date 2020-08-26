@@ -3,7 +3,7 @@
 
 > A clone of a New York Times article page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/screenshot.png)
 
 
 ## Built With
