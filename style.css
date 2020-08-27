@@ -1,0 +1,621 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+a {
+  color: #000;
+}
+
+.flex {
+  display: flex;
+}
+
+/* Navbar */
+
+.navbar {
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  border-bottom: 1px solid #eee;
+  padding: 8px 15px 5px;
+  align-items: center;
+  background-color: white;
+}
+
+.nav-item {
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.space-link {
+  text-decoration: none;
+}
+
+.space-link:hover {
+  text-decoration: underline;
+}
+
+.space-button-link {
+  width: 40px;
+  text-decoration: none;
+}
+
+.space-button-link i {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+.space-button-link:hover {
+  background-color: rgb(247, 247, 247);
+}
+
+.nyt-logo {
+  width: 195px;
+}
+
+.left {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.left > * {
+  padding: 0 9px 8px 0;
+  margin: 0 5px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.right {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-btn {
+  height: 32px;
+  background-color: rgb(85, 123, 146);
+  border: 1px solid rgb(48, 104, 143);
+  border-radius: 3px;
+  color: white;
+  padding: 10px 10px;
+  margin-right: 6px;
+  font-weight: 900;
+  font-size: 0.7rem;
+}
+
+/* Section 1 */
+
+main {
+  margin-top: 50px;
+}
+
+.section1-title {
+  width: 45vw;
+  margin: 0 auto;
+  font-style: italic;
+  padding: 40px 0 10px;
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+
+.section1-fig {
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 75%;
+}
+
+.alan-guth {
+  width: 100%;
+  align-items: center;
+}
+
+.alan-guth-caption {
+  width: 80%;
+  align-self: flex-start;
+  color: #666;
+  margin: 10px 20px;
+  font-size: 15px;
+}
+
+.rick-friedman {
+  font-size: 12px;
+  color: #888;
+}
+
+.section-1 {
+  width: 45vw;
+  margin: 0 auto;
+}
+
+/* Social and by line */
+.social-date {
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.social > button {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  border-style: none;
+  background-color: #eee;
+  margin-right: 10px;
+}
+
+.social-date > p {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  color: #333;
+}
+
+.social > a {
+  margin-right: 10px;
+}
+
+.section-1 > h6 {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+/* Section 1 text */
+.section1-art {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.section1-art > p {
+  padding-top: 15px;
+}
+
+.section1-subscribe {
+  width: 45vw;
+  font-size: 0.9rem;
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1-subscribe::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  padding-top: 20px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.section1-subscribe::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.section1-subscribe > a {
+  text-decoration: none;
+  color: rgb(48, 104, 143);
+  margin: 0;
+  padding: 0;
+}
+
+#thanks {
+  margin-top: 16px;
+}
+
+/* Aside Editors Pick */
+.editors {
+  float: right;
+  position: absolute;
+  right: 20px;
+  top: 1920px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3rem;
+  width: 300px;
+}
+
+@media (max-width: 1000px) {
+  .editors {
+    display: none;
+  }
+}
+
+.aside-container {
+  flex-direction: column;
+  width: 75%;
+  border-top: 1px solid rgb(204, 204, 204);
+  padding-top: 15px;
+}
+
+.editors > h6 {
+  padding-bottom: 20px;
+}
+
+.editors img {
+  width: 75px;
+  height: 75px;
+}
+
+.editors a {
+  font-size: 14px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.editors p {
+  width: 45%;
+  margin: 13.5px 0 13.5px 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Moved this here because specicificity errors */
+footer > hr {
+  border: 2px solid #ccc;
+  background-color: white;
+  border-style: solid none solid none;
+  height: 5px;
+  width: 100%;
+}
+
+/* Theory of inflation */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.theory {
+  margin: 0 auto;
+  width: 75%;
+  padding-top: 20px;
+}
+
+.theory-subtitle {
+  color: #666;
+  font-size: 1rem;
+  padding-top: 8px;
+}
+
+.theory-combo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+.theory-combo > img {
+  width: 250px;
+  height: 150px;
+}
+
+.theory-combo span {
+  font-weight: 900;
+}
+
+.theory-diagram {
+  padding-top: 20px;
+}
+
+.theory hr {
+  width: 7%;
+  height: 1px;
+  margin: 30px 0 15px 0;
+  background-color: black;
+  border: none;
+}
+
+.byline {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #333;
+  margin-bottom: 14px;
+}
+
+/* Section 3 */
+
+.some-text {
+  width: 45vw;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.some-text > p {
+  padding-top: 15px;
+}
+
+.some-text a {
+  color: #326891;
+}
+
+.youtube-responsive {
+  padding: 40px 0;
+}
+
+.youtube-vid {
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.youtube-vid > iframe {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-caption {
+  color: #666;
+  font-size: 1rem;
+  padding-top: 7px;
+  line-height: 1.1;
+}
+
+.video-caption span {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+h4 {
+  padding-top: 20px;
+  font-size: 1.4rem;
+}
+
+.section3-fig {
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 720px;
+}
+
+.telescope {
+  width: 100%;
+}
+
+.caption {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.caption a {
+  color: #666;
+}
+
+.comment-btn {
+  width: 330px;
+  height: 36px;
+  background-color: #567b95;
+  border-radius: 3px;
+  border: 1px solid rgb(50, 104, 145);
+  color: white;
+}
+
+/* Final Section */
+.final-section-container {
+  width: 85vw;
+  margin: 45px auto;
+  justify-content: space-between;
+}
+
+.final-section-container hr {
+  background-color: #000;
+  border: none;
+  height: 1px;
+}
+
+.final-section {
+  flex-grow: 3;
+}
+
+.final-section img {
+  width: 100%;
+}
+
+.fs {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 270px);
+  grid-template-rows: 30px repeat(2, 1fr);
+  justify-content: center;
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+
+.most-popular > div {
+  font-weight: bold;
+  line-height: 3;
+}
+
+.fs > div:nth-child(1) {
+  grid-area: 1 / 1 / 2 / -1;
+  line-height: 3;
+  font-weight: bold;
+}
+
+.fs-title {
+  font-size: 1rem;
+  font-family: Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+.fs-title:hover {
+  text-decoration: underline;
+}
+
+.fs .box-caption {
+  text-align: right;
+  color: #999;
+  font-size: 0.65rem;
+  padding-bottom: 5px;
+}
+
+.date {
+  color: #999;
+  font-size: 0.65rem;
+  padding-top: 5px;
+}
+
+.final-caption-text {
+  font-size: 1rem;
+  color: #121212;
+  font-weight: 500;
+}
+
+.editors-picks {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 270px);
+  grid-template-rows: 30px 1fr;
+  justify-content: center;
+  grid-column-gap: 10px;
+}
+
+.most-popular {
+  display: grid;
+  grid-template-columns: 270px;
+  grid-template-rows: 50px repeat(10, min-content);
+  flex-grow: 1;
+}
+
+.most-popular-text {
+  border-top: 1px solid rgb(226, 226, 226);
+  padding: 20px 0;
+  font-size: 1rem;
+  color: #121212;
+}
+
+/* Footer */
+
+footer {
+  width: 85vw;
+  margin: 0 auto 55px auto;
+}
+
+.nyt-footer-logo {
+  width: 195px;
+  padding: 10px 0;
+}
+
+.homepage-link {
+  float: right;
+  margin-top: 9px;
+}
+
+.homepage-link > a {
+  color: #326891;
+  text-decoration: none;
+  font-size: 0.7rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 10px;
+}
+
+.footer-container ul {
+  list-style: none;
+  color: #333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+}
+
+.footer-container li {
+  padding: 6px 0;
+}
+
+.final-ul li:hover {
+  text-decoration: underline;
+}
+
+.footer-container li:hover:nth-of-type(n + 2) {
+  text-decoration: underline;
+}
+
+.top-li {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.footer-container i {
+  padding-right: 5px;
+}
+
+.bold-li {
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.small-li {
+  font-size: 0.7rem;
+}
+
+#last-ul {
+  border-left: 1px solid rgb(226, 226, 226);
+  padding-left: 20px;
+}
+
+#border-li {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-bottom: 10px;
+}
+
+.final-ul {
+  list-style: none;
+  font-size: 0.7rem;
+  justify-content: space-around;
+  padding: 10px 60px;
+  color: #666;
+}
+
+.bottom-bar {
+  border-top: 1px solid black;
+  height: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9rem;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+}
+
+.bottom-bar p {
+  position: relative;
+  left: 100px;
+  margin-top: 15px;
+}
+
+#bottom-bar-exp {
+  float: right;
+  margin-right: 230px;
+  font-weight: bold;
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+#bottom-bar-exp i {
+  padding-left: 50px;
+}
