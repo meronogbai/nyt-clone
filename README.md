@@ -36,7 +36,7 @@ In this project, we have created a replica of an article from the New York Times
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/meronokbay/nyt-clone/issues).
 
 ## Show your support
 
