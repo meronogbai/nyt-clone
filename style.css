@@ -230,6 +230,12 @@ main {
   width: 300px;
 }
 
+@media (max-width: 1000px) {
+  .editors {
+    display: none;
+  }
+}
+
 .aside-container {
   flex-direction: column;
   width: 75%;
