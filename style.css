@@ -37,6 +37,29 @@ a {
   font-size: 1rem;
 }
 
+.space-link {
+  text-decoration: none;
+}
+
+.space-link:hover {
+  text-decoration: underline;
+}
+
+.space-button-link {
+  width: 40px;
+  text-decoration: none;
+}
+
+.space-button-link i {
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+
+.space-button-link:hover {
+  background-color: rgb(247, 247, 247);
+}
+
 .nyt-logo {
   width: 195px;
 }
@@ -393,6 +416,10 @@ h4 {
   height: 1px;
 }
 
+.final-section {
+  flex-grow: 3;
+}
+
 .final-section img {
   width: 100%;
 }
@@ -460,6 +487,7 @@ h4 {
   display: grid;
   grid-template-columns: 270px;
   grid-template-rows: 50px repeat(10, min-content);
+  flex-grow: 1;
 }
 
 .most-popular-text {
